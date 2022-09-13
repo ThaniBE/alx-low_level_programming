@@ -11,7 +11,7 @@ int main(void)
 	char alpbt;
 
 	alpbt = 'a';
-	while ((alpbt == 'a') || (alpbt <= 'z'))
+	while (alpbt == 'a' || alpbt <= 'z')
 	{	
 		putchar(alpbt);
 		alpbt++;
