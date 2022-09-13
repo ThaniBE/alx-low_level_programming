@@ -11,7 +11,7 @@
  * Return: Always 0 (success)
  */
 
-int main(void)
+int main (void)
 {
 	int n, lstdg;
 
@@ -21,7 +21,7 @@ int main(void)
 	lstdg = n % 10;
 	if (n > 0)
 	{
-		if(lstdg > 5)
+		if (lstdg > 5)
 			printf("Last digit of %d is %d and is greater than 5\n", n, lstdg);
 		else if (lstdg == 0)
 			printf("Last digit of %d is %d and is 0\n", n, lstdg);
