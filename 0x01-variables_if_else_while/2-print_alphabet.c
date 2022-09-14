@@ -12,7 +12,7 @@ int main(void)
 
 	alpbt = 'a';
 	while (alpbt == 'a' || alpbt <= 'z')
-	{	
+	{
 		putchar(alpbt);
 		alpbt++;
 	}
